@@ -56,7 +56,7 @@ git checkout -b shut_down_persistent_actor recover_state
 ````
 - Update APersistingModel.scala and APersistingActor.scala
 - Create the file to define actor: <b>com.github.janikibichi.learnakka.persistence.SafePersistentActorShutDown.scala</b>
-- Run the App to [shut down persistent actor.](https://asciinema.org/a/bCEsm9IfiJiVQG9vqYXm3rcin)
+- Run the App to [shut down persistent actor.](https://asciinema.org/a/YGjVuPXA3eSZigF7ZR3MLzMjc)
 
 
 

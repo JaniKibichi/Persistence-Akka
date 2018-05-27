@@ -84,6 +84,26 @@ git checkout -b persisting_to_levelDB persist_FSM_model
 ````
 - Update reference.conf to update persisting to levelDB
 
+<br><br>
+- Branch out to explore persisting to Cassandra
+````
+git checkout -b persisting_to_cassandra persisting_to_levelDB 
+````
+- Set up [Cassandra DB with docker.](https://hub.docker.com/_/cassandra/)
+````
+$ docker pull cassandra
+$ docker run --name actor-cassandra -d cassandra:latest
+$ docker logs actor-cassandra
+````
+- Update build.sbt to include the cassandra plugin:
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.84"
+````
+- Create a file to handle the model: <b>com.github.janikibichi.learnakka.persistence.StockPersistModel.scala</b>
+- Create a file to handle the actor: <b>com.github.janikibichi.learnakka.persistence.StockPersistActor.scala</b>
+- Add .conf application-cassandra.conf src/main/resources
+- Run the App to [persist to Cassandra.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
+
 
 
 

@@ -75,7 +75,7 @@ git checkout -b persist_FSM_model recovery_with_snapshots
 - Create file to define FSM Model: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMModel.scala</b>
 - Create actor to use FSM states: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMActor.scala</b>
 - Create app test FSM actor: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMApp.scala</b>
-- Run the App to [run Persisting FSM Actor.](https://asciinema.org/a/AuI2IVMdCs7hO0ksHX8ogNMjt)
+- Run the App to [run Persisting FSM Actor.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
 
 
 

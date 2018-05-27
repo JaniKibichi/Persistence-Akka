@@ -49,4 +49,14 @@ libraryDependencies += "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8"
 ````
 - Run the App to [recover state of the actor.](https://asciinema.org/a/bCEsm9IfiJiVQG9vqYXm3rcin)
 
+<br><br>
+- Branch out to explore shutting down persistent actor
+````
+git checkout -b shut_down_persistent_actor recover_state
+````
+- Update APersistingModel.scala and APersistingActor.scala
+- Create the file to define actor: <b>com.github.janikibichi.learnakka.persistence.SafePersistentActorShutDown.scala</b>
+- Run the App to [shut down persistent actor.](https://asciinema.org/a/bCEsm9IfiJiVQG9vqYXm3rcin)
+
+
 

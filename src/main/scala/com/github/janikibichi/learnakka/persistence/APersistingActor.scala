@@ -28,7 +28,12 @@ class PersistingActor extends PersistentActor {
 
     case "print" =>
       println(state)
+
+    case ShutdownPersistentActor =>
+      context.stop(self)
   }
+
+  override def postStop() = println(s"Stopping [${self.path}]")
 }
 
 

@@ -20,3 +20,5 @@ case class ActiveUsers(users: Set[String] = Set.empty[String]) {
   }
   override def toString = s"$users"
 }
+
+case object ShutdownPersistentActor

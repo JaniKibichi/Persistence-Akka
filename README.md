@@ -82,9 +82,8 @@ git checkout -b persist_FSM_model recovery_with_snapshots
 ````
 git checkout -b persisting_to_levelDB persist_FSM_model
 ````
-- Create file to define FSM Model: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMModel.scala</b>
+- Update reference.conf to update persisting to levelDB
 
-- Run the App to [persist actor state to DB.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
 
 
 

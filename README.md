@@ -65,7 +65,17 @@ git checkout -b recovery_with_snapshots shut_down_persistent_actor
 ````
 - Create file to define snapshot capabilities: <b>com.github.janikibichi.learnakka.persistence.SnapshotActor.scala</b>
 - Create snapshot app: <b>com.github.janikibichi.learnakka.persistence.SnapshotApp.scala</b>
-- Run the App to [recover with snapshots.](https://asciinema.org/a/YGjVuPXA3eSZigF7ZR3MLzMjc)
+- Run the App to [recover with snapshots.](https://asciinema.org/a/AuI2IVMdCs7hO0ksHX8ogNMjt)
+
+<br><br>
+- Branch out to explore creating a persistence FSM model
+````
+git checkout -b persist_FSM_model recovery_with_snapshots 
+````
+- Create file to define FSM Model: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMModel.scala</b>
+- Create actor to use FSM states: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMActor.scala</b>
+- Create app test FSM actor: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMApp.scala</b>
+- Run the App to [run Persisting FSM Actor.](https://asciinema.org/a/AuI2IVMdCs7hO0ksHX8ogNMjt)
 
 
 

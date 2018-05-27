@@ -31,4 +31,22 @@ libraryDependencies += "org.iq80.leveldb" % "leveldb" % "0.10"
 - Create a file to handle the persisting actor: <b>com.github.janikibichi.learnakka.persistence.APersistingActor.scala</b>
 - Configure the LevelDB to be used as a journal. Create reference.conf inside src/main/resource
 - Create an App to test the persisting actor:<b>com.github.janikibichi.learnakka.persistence.PersistingApp.scala</b>
+- Run the App to [create a persisting actor.](https://asciinema.org/a/YrjjDlbBzFxqe95NH3hYQaG1z)
+
+<br><br>
+- Branch out to explore recovering the state of an actor
+````
+git checkout -b recover_state start_persisting
+````
+- Create the file to handle the persisting model: <b>com.github.janikibichi.learnakka.persistence.RecoverState.scala</b>
+- Add akka-persistence and levelDB dependencies to build.sbt
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence" % "2.5.12"
+libraryDependencies += "org.iq80.leveldb" % "leveldb" % "0.10"
+
+````
+- Create a file to handle the persisting actor: <b>com.github.janikibichi.learnakka.persistence.APersistingActor.scala</b>
+- Configure the LevelDB to be used as a journal. Create reference.conf inside src/main/resource
+- Create an App to test the persisting actor:<b>com.github.janikibichi.learnakka.persistence.PersistingApp.scala</b>
 - Run the App to [create a persisting actor.](https://asciinema.org/a/FiIuXpGjBlxk6qcEeMsriFct1)
+

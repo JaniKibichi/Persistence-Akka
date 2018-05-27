@@ -12,6 +12,6 @@ Akka persistence uses event sourcing to save Actor state and then recover it.
 
 - AsyncWriteJournal: A journal with an ordered collection of events that can be sent to a persistent actor.
 
-- AtLeastOnceDelivery: A message delivery mechanism that ensures at least one time deilivery to destinations.
+- AtLeastOnceDelivery: A message delivery mechanism that ensures at least one time delivery to destinations.
 
 - Snapshot store: Store of snapshots of actor state, used to speed up recovery time for state.

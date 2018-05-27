@@ -22,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="162">
-                <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="51" />
+              <first_editor relative-caret-position="180">
+                <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,6 +31,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -53,6 +56,7 @@
     <option name="width" value="1242" />
     <option name="height" value="741" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter" />
     <factor id="binaryFeature:liftShorterClasses" />
@@ -75,11 +79,17 @@
       <dailyData date="26-5-2018">
         <observation name="cancelled" value="11.0" />
       </dailyData>
+      <dailyData date="27-5-2018">
+        <observation name="cancelled" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="completionType" />
     <factor id="completionUsage">
       <dailyData date="26-5-2018">
         <observation name="count" value="11.0" />
+      </dailyData>
+      <dailyData date="27-5-2018">
+        <observation name="count" value="1.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity" />
@@ -245,11 +255,11 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.24980047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" visible="true" weight="0.3284553" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.3284553" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -276,8 +286,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="51" />
+          <first_editor relative-caret-position="180">
+            <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>

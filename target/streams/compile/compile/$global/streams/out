@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/graham/code/learnAkka/persistence/src/main/scala/com/github/janikibichi/learnakka/persistence/FriendModel.scala:14:19: value :+ is not a member of com.github.janikibichi.learnakka.persistence.Friend[0m
+[0m[[0m[31merror[0m] [0m[0m      copy(friend :+ friend)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

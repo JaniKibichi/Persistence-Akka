@@ -22,6 +22,7 @@ class FriendActor(friendId: String, recover: Recovery) extends PersistentActor w
     case SnapshotOffer(_, recoveredState: FriendState) =>
       log.info(s"Snapshot offered: $recoveredState")
       state = recoveredState
+
     case RecoveryCompleted =>
       log.info(s"Recovery completed. Current state: $state")
   }

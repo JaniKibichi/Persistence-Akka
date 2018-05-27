@@ -77,5 +77,14 @@ git checkout -b persist_FSM_model recovery_with_snapshots
 - Create app test FSM actor: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMApp.scala</b>
 - Run the App to [run Persisting FSM Actor.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
 
+<br><br>
+- Branch out to explore persisting to DB
+````
+git checkout -b persisting_to_levelDB persist_FSM_model
+````
+- Create file to define FSM Model: <b>com.github.janikibichi.learnakka.persistence.PersistentFSMModel.scala</b>
+
+- Run the App to [persist actor state to DB.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
+
 
 

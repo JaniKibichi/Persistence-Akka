@@ -31,7 +31,4 @@ class PersistingActor extends PersistentActor {
   }
 }
 
-object APersistingActor extends App {
-
-}
 

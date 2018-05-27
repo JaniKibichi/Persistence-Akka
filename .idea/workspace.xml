@@ -2,57 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0971552c-256e-44b6-9e2c-f9593b249b4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_21_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_iq80_leveldb_leveldb_0_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_iq80_leveldb_leveldb_api_0_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/reference.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/persistence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/persistence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/PersistingApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka$sources/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka$sources/1.0/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka$sources/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka$sources/1.0/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka_2.11/1.0/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/persistence-akka/persistence-akka_2.11/1.0/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/persistence-akka-persistence-akka_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -74,15 +28,24 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="439">
-                <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
+              <first_editor relative-caret-position="457">
+                <caret line="32" column="103" lean-forward="true" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="112" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/PersistingApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/reference.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -94,17 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="48">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="216">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -143,14 +106,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/PersistingActor.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/reference.conf" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/PersistingApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="118" />
     <option name="y" value="94" />
     <option name="width" value="1242" />
@@ -162,97 +127,97 @@
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
       <dailyData date="27-5-2018">
-        <observation name="false" value="20.0" />
+        <observation name="false" value="30.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="27-5-2018">
-        <observation name="false" value="20.0" />
+        <observation name="false" value="30.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="15.0" />
-        <observation name="true" value="2.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="23.0" />
+        <observation name="true" value="3.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="17.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="26.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="17.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="26.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="17.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="26.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="17.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="26.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="27-5-2018">
-        <observation name="false" value="20.0" />
+        <observation name="false" value="30.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="unknown" value="17.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="unknown" value="26.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="2.0" />
-        <observation name="null" value="15.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="3.0" />
+        <observation name="null" value="23.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="unknown" value="17.0" />
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="unknown" value="26.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -260,14 +225,14 @@
         <observation name="cancelled" value="11.0" />
       </dailyData>
       <dailyData date="27-5-2018">
-        <observation name="cancelled" value="258.0" />
-        <observation name="explicitSelect" value="16.0" />
-        <observation name="typedSelect" value="4.0" />
+        <observation name="cancelled" value="367.0" />
+        <observation name="explicitSelect" value="23.0" />
+        <observation name="typedSelect" value="7.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="27-5-2018">
-        <observation name="BASIC" value="25.0" />
+        <observation name="BASIC" value="37.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -275,13 +240,13 @@
         <observation name="count" value="11.0" />
       </dailyData>
       <dailyData date="27-5-2018">
-        <observation name="count" value="278.0" />
+        <observation name="count" value="397.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
       <dailyData date="27-5-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="39.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -290,7 +255,7 @@
     <factor id="doubleFeature:grouping">
       <dailyData date="27-5-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="39.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -298,18 +263,18 @@
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="27-5-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="39.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -317,17 +282,17 @@
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="27-5-2018">
-        <observation name="average" value="-403.435897" />
-        <observation name="count" value="39.0" />
+        <observation name="average" value="-458.610169" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-1153.0" />
-        <observation name="variance" value="193326.542271" />
+        <observation name="variance" value="219220.754119" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="27-5-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="39.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -335,9 +300,9 @@
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
+        <observation name="UNDEFINED" value="4.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="33.0" />
+        <observation name="count" value="51.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -345,9 +310,9 @@
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
+        <observation name="UNDEFINED" value="4.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="33.0" />
+        <observation name="count" value="51.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -355,9 +320,9 @@
     </factor>
     <factor id="doubleFeature:prox_sameModule">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
+        <observation name="UNDEFINED" value="4.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="33.0" />
+        <observation name="count" value="51.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -365,9 +330,9 @@
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="3.0" />
+        <observation name="UNDEFINED" value="4.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="33.0" />
+        <observation name="count" value="51.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -376,7 +341,7 @@
     <factor id="doubleFeature:query_length">
       <dailyData date="27-5-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="39.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -384,32 +349,32 @@
     </factor>
     <factor id="doubleFeature:result_length">
       <dailyData date="27-5-2018">
-        <observation name="average" value="8.538462" />
-        <observation name="count" value="39.0" />
+        <observation name="average" value="8.220339" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="16.0" />
         <observation name="min" value="3.0" />
-        <observation name="variance" value="10.275043" />
+        <observation name="variance" value="10.314166" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="27-5-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="39.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -417,36 +382,36 @@
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="27-5-2018">
-        <observation name="UNDEFINED" value="20.0" />
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="27-5-2018">
-        <observation name="average" value="1016.923077" />
-        <observation name="count" value="39.0" />
+        <observation name="average" value="1008.305085" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="9915.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="5461664.537969" />
+        <observation name="variance" value="5935730.664667" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="27-5-2018">
-        <observation name="0" value="16.0" />
+        <observation name="0" value="23.0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="27-5-2018">
-        <observation name="total" value="6.0" />
+        <observation name="total" value="9.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
       <dailyData date="27-5-2018">
-        <observation name="0" value="8.0" />
+        <observation name="0" value="12.0" />
         <observation name="1" value="2.0" />
-        <observation name="2" value="1.0" />
-        <observation name="3" value="1.0" />
-        <observation name="4" value="4.0" />
+        <observation name="2" value="2.0" />
+        <observation name="3" value="2.0" />
+        <observation name="4" value="5.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
@@ -455,8 +420,8 @@
         <observation name="count" value="2.0" />
       </dailyData>
       <dailyData date="27-5-2018">
-        <observation name="average" value="214.625" />
-        <observation name="count" value="16.0" />
+        <observation name="average" value="198.653846" />
+        <observation name="count" value="26.0" />
       </dailyData>
     </factor>
   </component>
@@ -545,7 +510,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527413278213" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527414779968" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -569,7 +534,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527413278205" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527414779961" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -715,25 +680,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="439">
-            <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
+          <first_editor relative-caret-position="457">
+            <caret line="32" column="103" lean-forward="true" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="112" />
           </first_editor>
           <second_editor />
         </state>
@@ -743,6 +694,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/PersistingApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/persistence/APersistingModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
         </state>
       </provider>
     </entry>

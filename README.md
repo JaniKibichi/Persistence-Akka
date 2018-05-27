@@ -43,5 +43,10 @@ git checkout -b recover_state start_persisting
 - Create the file to describe actor:<b>com.github.janikibichi.learnakka.persistence.FriendActor.scala</b>
 - Create the file to recover state:<b>com.github.janikibichi.learnakka.persistence.FriendApp.scala</b>
 - Update the file reference.conf in src/main./resources
-- Run the App to [recover state of the actor.](https://asciinema.org/a/FiIuXpGjBlxk6qcEeMsriFct1)
+- Add levelDB dependency in build.sbt:
+````
+libraryDependencies += "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8"
+````
+- Run the App to [recover state of the actor.](https://asciinema.org/a/bCEsm9IfiJiVQG9vqYXm3rcin)
+
 

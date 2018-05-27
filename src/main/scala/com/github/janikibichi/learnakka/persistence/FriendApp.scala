@@ -5,8 +5,10 @@ import akka.persistence.{Recovery, SnapshotSelectionCriteria}
 
 object FriendApp extends App {
   val actorSystem = ActorSystem("AppOne")
+
   //Create and Define An Actor in the ActorSystem
   val helloFriend = actorSystem.actorOf(FriendActor.props("Graham", Recovery()))
+
   //Send Messages to Actors
   helloFriend ! AddFriend(Friend("Laura"))
   helloFriend ! AddFriend(Friend("Nancy"))
@@ -30,6 +32,10 @@ object FriendDefaultRecovery extends App {
   helloFriend ! "print"
 
   Thread.sleep(2000)
+
+  //Print
+  println("That was the default recovery behavior........................")
+
   actorSystem.terminate()
 }
 
@@ -46,6 +52,10 @@ object OnlyEventRecovery extends App {
   helloFriend ! "print"
 
   Thread.sleep(2000)
+
+  //Print
+  println("That was the Events ONLY and not Snapshots recovery behavior........................")
+
   actorSystem.terminate()
 }
 
@@ -59,6 +69,10 @@ object FriendRecoveryEventsSequence extends App {
   val helloFriend = actorSystem.actorOf(FriendActor.props("Graham", recovery))
 
   Thread.sleep(2000)
+
+  //Print
+  println("That was how to place a limit(2) to number of events recovered in recovery behavior........................")
+
   actorSystem.terminate()
 }
 
@@ -72,6 +86,10 @@ object FriendRecoveryEventsReplay extends App{
   val helloFriend = actorSystem.actorOf(FriendActor.props("Graham", recovery))
 
   Thread.sleep(2000)
+
+  //Print
+  println("That was how to limit the events to replay(3 events) in recovery behavior........................")
+
   actorSystem.terminate()
 }
 

@@ -11,7 +11,6 @@ case class FriendRemoved(friend: Friend) extends FriendEvent
 case class FriendState(friends: Vector[Friend] = Vector.empty[Friend]){
   def update(evt: FriendEvent) = evt match{
     case FriendAdded(friend) => copy(friends :+ friend)
-
     case FriendRemoved(friend) => copy(friends.filterNot(_ == friend))
   }
   override def toString = friends.mkString(",")

@@ -58,5 +58,14 @@ git checkout -b shut_down_persistent_actor recover_state
 - Create the file to define actor: <b>com.github.janikibichi.learnakka.persistence.SafePersistentActorShutDown.scala</b>
 - Run the App to [shut down persistent actor.](https://asciinema.org/a/YGjVuPXA3eSZigF7ZR3MLzMjc)
 
+<br><br>
+- Branch out to explore recovery with snapshots
+````
+git checkout -b recovery_with_snapshots shut_down_persistent_actor
+````
+- Create file to define snapshot capabilities: <b>com.github.janikibichi.learnakka.persistence.SnapshotActor.scala</b>
+- Create snapshot app: <b>com.github.janikibichi.learnakka.persistence.SnapshotApp.scala</b>
+- Run the App to [recover with snapshots.](https://asciinema.org/a/YGjVuPXA3eSZigF7ZR3MLzMjc)
+
 
 

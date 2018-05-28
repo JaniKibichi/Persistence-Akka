@@ -91,17 +91,24 @@ git checkout -b persisting_to_cassandra persisting_to_levelDB
 ````
 - Set up [Cassandra DB with docker.](https://hub.docker.com/_/cassandra/)
 ````
-$ docker pull cassandra
-$ docker run --name actor-cassandra -d cassandra:latest
-$ docker logs actor-cassandra
+$ sudo docker pull cassandra:latest
+$ sudo docker run -p 9042:9042 --name actor-cassandra -d cassandra:latest
+$ sudo docker logs actor-cassandra
 ````
 - Update build.sbt to include the cassandra plugin:
 ````
-libraryDependencies += "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.84"
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.53"
+
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence-cassandra-launcher" % "0.53" % Test
 ````
 - Create a file to handle the model: <b>com.github.janikibichi.learnakka.persistence.StockPersistModel.scala</b>
 - Create a file to handle the actor: <b>com.github.janikibichi.learnakka.persistence.StockPersistActor.scala</b>
 - Add .conf application-cassandra.conf src/main/resources
+- Run the app to connect to the cassandra instance:
+````
+sbt -Dconfig.resource=application-cassandra.conf "runMain com.github.janikibichi.learnakka.persistence.StockPersistApp"
+````
+- Please note that this may take a few retries.
 - Run the App to [persist to Cassandra.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
 
 

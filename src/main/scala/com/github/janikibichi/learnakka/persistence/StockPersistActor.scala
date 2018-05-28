@@ -1,6 +1,6 @@
 package com.github.janikibichi.learnakka.persistence
 
-import akka.actor.{Actor, ActorLogging, Props}
+import akka.actor.{ActorLogging, Props}
 import akka.persistence.{PersistentActor, RecoveryCompleted}
 
 object StockPersistActor{

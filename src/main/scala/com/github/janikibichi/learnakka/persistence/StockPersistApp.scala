@@ -12,7 +12,7 @@ object StockPersistApp extends App with AkkaHelper {
   teslaStockActor ! ValueUpdate(305.15)
   teslaStockActor ! "print"
 
-  //Thread.sleep(5000)
+  Thread.sleep(5000)
   actorSystem.terminate()
 }
 
@@ -20,6 +20,6 @@ object StockRecoveryApp extends App with AkkaHelper {
   teslaStockActor ! ValueUpdate(305.20)
   teslaStockActor ! "print"
 
-  //Thread.sleep(2000)
+  Thread.sleep(2000)
   actorSystem.terminate()
 }

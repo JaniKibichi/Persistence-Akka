@@ -111,6 +111,30 @@ sbt -Dconfig.resource=application-cassandra.conf "runMain com.github.janikibichi
 - Please note that this may take a few retries.
 - Run the App to [persist to Cassandra.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
 
+<br><br>
+- Branch out to explore persisting with redis
+````
+git checkout -b persisting_to_redis persisting_to_cassandra
+````
+- Set up [Redis DB with Docker.](https://hub.docker.com/_/redis/)
+````
+$ sudo docker pull redis:latest
+$ sudo docker run -p 6379:6379 --name actor-redis -d redis:latest
+$ sudo docker logs actor-redis
+
+````
+- Update build.sbt to include Redis dependencies:
+````
+libraryDependencies += "com.hootsuite" %% "akka-persistence-redis" % "0.8.0" % "runtime"
+````
+- Add .conf application-redis.conf in src/main/resources
+-Run the App to connect to the Redis Instance:
+````
+sbt -Dconfig.resource=application-redis.conf "runMain com.github.janikibichi.learnakka.persistence.StockPersistApp"
+sbt -Dconfig.resource=application-redis.conf "runMain com.github.janikibichi.learnakka.persistence.StockRecoveryApp"
+````
+- Run the App to [persist with Redis and Recover state.](https://asciinema.org/a/GMJUWmlHDouEY0acxPsZN4UT1)
+
 
 
 

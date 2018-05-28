@@ -4,15 +4,15 @@ version := "1.0"
 
 scalaVersion := "2.11.12"
 
-libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.4.20"
+libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.5.12"
 
-libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" % "2.4.20"
+libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" % "2.5.12"
+
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence" % "2.5.12"
+
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence-query" % "2.5.12"
 
 libraryDependencies += "com.typesafe" % "config" % "1.3.2"
-
-libraryDependencies += "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.53"
-
-libraryDependencies += "com.typesafe.akka" %% "akka-persistence-cassandra-launcher" % "0.53" % Test
 
 libraryDependencies += "org.slf4j" % "slf4j-api" % "1.7.25"
 

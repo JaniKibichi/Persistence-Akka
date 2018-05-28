@@ -111,6 +111,18 @@ sbt -Dconfig.resource=application-cassandra.conf "runMain com.github.janikibichi
 - Please note that this may take a few retries.
 - Run the App to [persist to Cassandra.](https://asciinema.org/a/G8AM3rrhGrEi3gjKNXyofGjx8)
 
+<br><br>
+- Branch out to explore persistence query to levelDB
+````
+git checkout -b persistence_query_to_levelDB persisting_to_cassandra
+````
+- Update build.sbt to include the Akka Persistence library:
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence-query" % "2.5.12"
+````
+- Update .conf file reference.conf in src/main/resources
+- Create a file to handle reader: <b>com.github.janikibichi.learnakka.persistence.FriendJournalReader.scala</b>
+
 
 
 

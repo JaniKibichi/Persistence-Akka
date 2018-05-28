@@ -109,7 +109,7 @@ libraryDependencies += "com.typesafe.akka" %% "akka-persistence-cassandra-launch
 sbt -Dconfig.resource=application-cassandra.conf "runMain com.github.janikibichi.learnakka.persistence.StockPersistApp"
 ````
 - Please note that this may take a few retries.
-- Run the App to [persist to Cassandra.](https://asciinema.org/a/ea6Z3NMCPoxyYlgRzzDwvaAqa)
+- Run the App to [persist to Cassandra.](https://asciinema.org/a/G8AM3rrhGrEi3gjKNXyofGjx8)
 
 
 

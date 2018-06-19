@@ -20,3 +20,6 @@ libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.25"
 
 libraryDependencies += "com.google.guava" % "guava" % "19.0"
 
+libraryDependencies += "org.iq80.leveldb" % "leveldb" % "0.10"
+
+libraryDependencies += "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8"

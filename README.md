@@ -122,6 +122,28 @@ libraryDependencies += "com.typesafe.akka" %% "akka-persistence-query" % "2.5.12
 ````
 - Update .conf file reference.conf in src/main/resources
 - Create a file to handle reader: <b>com.github.janikibichi.learnakka.persistence.FriendJournalReader.scala</b>
+- Run the app to connect to the explore persistence query to leveldb instance:
+````
+sbt "runMain com.github.janikibichi.learnakka.persistence.FriendJournalReader"
+````
+- Run the App to [see persistence queries in action.](https://asciinema.org/a/b7NPk1XUMCqYkYTouNlbDhNRi)
+
+<br><br>
+- Branch out to explore remoting and Akka clustering
+````
+git checkout -b remoting_and_akka_clustering persistence_query_to_levelDB 
+````
+- Update build.sbt to include the Akka Persistence library:
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-persistence-query" % "2.5.12"
+````
+- Update .conf file reference.conf in src/main/resources
+- Create a file to handle reader: <b>com.github.janikibichi.learnakka.persistence.FriendJournalReader.scala</b>
+- Run the app to connect to the explore persistence query to leveldb instance:
+````
+sbt "runMain com.github.janikibichi.learnakka.persistence.FriendJournalReader"
+````
+- Run the App to [see persistence queries in action.](https://asciinema.org/a/b7NPk1XUMCqYkYTouNlbDhNRi)
 
 
 
